@@ -1,0 +1,24 @@
+1. How will you assign a div with the class ‘test’ in a variable called ‘demo’?
+
+let demo = document.querySelector(".test");
+
+2. How will you assign a div with the id=’denne’ to a variable called ‘unik’?
+
+let unik = document.getElementById("denne");
+
+3. How will you find the link in the NTNU logo top left at this page (https://www.ntnu.no)? (NB. The
+link, not the actual picture).
+
+document.getElementById('home_href').href
+
+
+4. What should you write in the “Console” to make the input field for the search bar top right at
+this page (https://www.ntnu.no) say “studier”?
+
+document.getElementById('ntnu-search').placeholder = "studier";
+
+5. What do you need to write in the “console” to simulate a click event at the “Student i Gjøvik”
+button in the “Studentliv” menu? https://www.ntnu.no
+
+document.getElementById("yui_patched_v3_18_1_1_1614693838454_151").click()
+
